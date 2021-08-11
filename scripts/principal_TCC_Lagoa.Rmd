@@ -1,0 +1,384 @@
+---
+title: " "
+output:
+  pdf_document:
+    number_sections: TRUE
+geometry: "left = 2.5cm, right = 2cm, top = 2cm, bottom = 2cm"
+fontsize: 11pt
+header-includes:
+  - \usepackage{float}
+  - \usepackage{sectsty}
+  - \usepackage{paralist}
+  - \usepackage{setspace}\spacing{1.5}
+  - \usepackage{fancyhdr}
+  - \usepackage{lastpage}
+  - \usepackage{dcolumn}
+  - \usepackage{natbib}\bibliographystyle{agsm}
+  - \usepackage[nottoc, numbib]{tocbibind}
+params:
+  curso: "Ciências Biológicas"
+  orientador: "Alexandre Camargo Martensen"
+  aluno: "Fulano de Tal"
+  titulo: "TÍTULO DO TRABALHO EM CAPS"
+  financiamento: "FAPESP Processo numero"
+bibliography: ../docs/referencias.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+\allsectionsfont{\centering}
+\subsectionfont{\raggedright}
+\subsubsectionfont{\raggedright}
+
+\pagenumbering{gobble}
+
+\renewcommand{\contentsname}{SUMÁRIO}
+
+\begin{centering}
+
+\vspace{3cm}
+
+```{r ccn_logo, echo=FALSE, out.width="30%"}
+knitr::include_graphics("../figs/logo_ccn5.png")
+```
+
+\vspace{2cm}
+
+\Large
+{\bf UNIVERSIDADE FEDERAL DE SÃO CARLOS}
+
+\Large
+{\bf CENTRO DE CIÊNCIAS DA NATUREZA}
+
+\vspace{3cm}
+
+
+`r params$aluno`
+
+\vspace{2cm}
+
+\Large
+\doublespacing
+{\bf `r params$titulo`}
+
+
+
+\normalsize
+\singlespacing
+
+\vspace*{\fill}
+
+Buri
+
+202X
+
+\end{centering}
+
+\newpage
+
+\begin{centering}
+
+\vspace{2cm}
+
+\Large
+{\bf UNIVERSIDADE FEDERAL DE SÃO CARLOS}
+
+\Large
+{\bf CENTRO DE CIÊNCIAS DA NATUREZA}
+
+\vspace{3cm}
+
+`r params$aluno`
+
+\end{centering}
+
+\vspace{4cm}
+
+\begin{flushright}
+\begin{tabular}{@{}l@{}}
+Trabalho de Conclusão de Curso apresentado\\ 
+como exigência parcial para a obtenção do\\
+grau de Bacharel em `r params$curso`\\
+na Universidade Federal de São Carlos.
+\end{tabular}
+
+
+\vspace{3cm}
+
+Orientação: `r params$orientador`
+
+Financiamento: `r params$financiamento`
+
+\end{flushright}
+
+\vspace*{\fill}
+
+\begin{centering}
+
+Buri
+
+202X
+
+\end{centering}
+
+\newpage
+
+\begin{centering}
+
+\vspace{2cm}
+
+\Large
+{\bf FOLHA DE APROVAÇÃO}
+
+\vspace{1cm}
+
+\Large
+{\bf NOME DO ALUNO}
+
+\vspace{1cm}
+
+\Large
+{TÍTULO DO TRABALHO}
+
+\end{centering}
+\vspace{1.5cm}
+
+\begin{flushright}
+\begin{tabular}{@{}l@{}}
+Trabalho de Conclusão de Curso apresentado\\
+como exigência parcial para a obtenção do\\
+grau de Bacharel em curso na Universidade\\
+Federal de São Carlos. Buri,   de    202X.
+
+\end{tabular}
+\end{flushright}
+
+
+\begin{flushleft}
+
+\vspace*{\fill}
+Orientador(a)
+
+\vspace{0.5cm}
+\makebox[2.5in]{\hrulefill}\newline
+Dr.(a) `r params$orientador`\newline
+Centro de Ciências da Natureza\newline
+Universidade Federal de São Carlos\newline
+\vspace{0.5cm}
+Examinador(a)
+
+\vspace{1cm}
+
+\makebox[2.5in]{\hrulefill}\newline
+Dr. (a) Nome Sobrenome\newline
+Instituição a que pertence\newline
+Examinador(a) 
+
+\vspace{1cm}
+\makebox[2.5in]{\hrulefill}\newline
+Dr.(a) Nome Sobrenome\newline
+Instituição a que pertence
+
+\end{flushleft}
+
+\newpage
+
+\begin{flushright}
+
+\vspace*{\fill}
+
+\Large
+{\bf DEDICATÓRIA}
+
+Homenagem do autor para outra(s) pessoa(s).
+
+\end{flushright}
+
+\newpage
+
+\vspace{10cm}
+
+\begin{centering}
+
+\Large
+{\bf AGRADECIMENTOS}
+
+Elemento opcional. O autor agradece a todas as pessoas e entidades que colaboraram decisivamente na realização da monografia.
+
+\end{centering}
+
+\newpage
+
+\vspace{1cm}
+
+\begin{centering}
+
+\Large
+{\bf RESUMO}
+
+\end{centering}
+
+\spacing{1.5}
+
+
+SOBRENOME, Nome. Título: subtítulo. 20XX.  Trabalho de Conclusão de Curso – Universidade Federal de São Carlos, campus Lagoa do Sino, Buri, 20XX. 
+- Item obrigatório. 
+- É o resumo da monografia em português, não podendo conter mais de 500 palavras. 
+- Trata-se da apresentação breve e concisa dos aspectos mais relevantes da Monografia, uma visão geral do mesmo.
+- breve descrição das questões de pesquisa e das lacunas de conhecimento que permanecem (o que sabemos e o q não sabemos)
+- Como a pesquisa foi pensada para resolver um/uns desses gaps
+- Breve apresentacao dos resultados
+- Conclusao e link dos resultados em um contexto mais amplo
+
+
+Segundo a Associação Brasileira de Normas Técnicas (ABNT) 6028, abaixo do resumo, devem ser colocadas as palavras representativas do conteúdo do trabalho, as chamadas palavras-chave e/ou descritores iniciadas com letras maiúsculas e separadas por ponto.
+
+\vspace*{\fill}
+
+**Palavras-chave:** separadas entre si por ponto (.), inclusive finalizada, também, por ponto (ponto após a última palavra-chave). Exemplo: Normalização de trabalhos acadêmicos. Normas da ABNT. Formatação de trabalhos acadêmicos.
+
+\newpage
+
+\begin{centering}
+
+\Large
+{\bf ABSTRACT}
+
+\end{centering}
+
+\spacing{1.5}
+
+Mantém-se a exigência do máximo de 500 palavras. 
+
+\vspace*{\fill}
+
+Keywords: separadas entre si por ponto (.), inclusive finalizada, também, por ponto (ponto após a última palavra-chave).
+
+\newpage
+
+\pagenumbering{roman}
+
+\newpage
+
+\centering
+\raggedright
+\newpage
+\tableofcontents
+
+\newpage
+
+\pagenumbering{arabic}
+
+\begin{centering}
+
+\Large
+{\bf INTRODUÇÃO}
+
+\end{centering}
+
+Aqui você deve incluir a sua introdução que deve estar em um outro documento Rmd
+
+É melhor você escrevê-lo inicialmente em um documento de texto (ex. Google Docs), e depois copiar e colar em um documento Rmd, deixando as figuras e etc para serem executadas aqui.
+```{r intro, child = 'introducao.Rmd', eval=FALSE}
+
+
+
+```
+
+
+\newpage
+
+\begin{centering}
+
+\Large
+{\bf MATERIAL E MÉTODOS}
+
+\end{centering}
+
+Aqui você deve incluir os seus métodos que deve estar em um outro documento Rmd, escrito em um documento de texto, estilo Google Docs. Deixe para as figuras serem executadas aqui
+```{r metodos, child = 'metodos.Rmd', eval=FALSE}
+
+.
+```
+
+\newpage
+
+\begin{centering}
+
+\Large
+{\bf RESULTADOS}
+
+\end{centering}
+
+Aqui você deve incluir os seus Resultados que deve estar em um outro documento Rmd. Possivelmente, as partes de textos maiores você pode se beneficiar de escrevê-la em um documento de texto, estilo Google Docs. Deixe para as figuras serem executadas aqui e no caso dos resultados, provavelmente lapidar aqui tb. 
+
+A única vantagem de escrever em um documento de texto e colar aqui, é que você tem um revisor ortográfico melhor (mas tvz seja mais fácil editar um texto em um editor de texto, não sei...)
+```{r resultados, child = 'resultados.Rmd', eval=FALSE}
+
+
+
+```
+
+\newpage
+
+\begin{centering}
+
+\Large
+{\bf DISCUSSÃO}
+
+\end{centering}
+
+Aqui você deve incluir a sua discussão que deve estar em um outro documento Rmd, escrito em um documento de texto, estilo Google Docs. Deixe para as figuras serem executadas aqui.
+
+```{r discussao, child = 'discussao.Rmd', eval=FALSE}
+
+```
+
+\newpage
+
+\begin{centering}
+
+\Large
+{\bf CONCLUSÃO}
+
+\end{centering}
+
+Aqui você deve incluir a conclusão que deve estar em um outro documento Rmd, escrito em um documento de texto, estilo Google Docs. Deixe para as figuras serem executadas aqui.
+
+```{r conclusao, child = 'conclusion.Rmd', eval=FALSE}
+
+```
+
+\newpage
+
+\begin{centering}
+
+\Large
+{\bf REFERÊNCIAS}
+
+\end{centering}
+
+As referencias bibliográficas são incluidas automaticamente, desde que constem no arquivo ../docs/referencias.bib (ver yaml).
+
+```{r biblio, child = 'bibliografia.Rmd', eval=FALSE}
+
+  
+
+```
+
+\newpage
+
+\begin{centering}
+
+\Large
+{\bf APÊNDICE}
+
+\end{centering}
+
+Se precisar/tiver apendice, ex. códigos, o proprio Rmd sem executar os códigos, mas com echo=TRUE, assim por diante.
+```{r apendice, child = 'apendice.Rmd', eval=FALSE}
+
+```
