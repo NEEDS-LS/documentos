@@ -1,1 +1,7 @@
-README_projeto
+Arquivo README dos Templates de documentos utilizados pelo NEEDS.
+
+Temos até o momento dois documentos, sendo eles:
+
+- Template para TCC no formato solicitado no Centro de Ciências da Natureza (CCN), da Universidade Federal de São Carlos (UFSCar);
+
+- - Template para dissertação de mestrado no formato solicitado pelo Programa de Pós-Graduação em Ciências Ambientais (PPGCAm), da Universidade Federal de São Carlos (UFSCar).
