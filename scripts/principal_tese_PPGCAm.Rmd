@@ -79,9 +79,7 @@ SÃO CARLOS - SP\\
 
 \vspace{2cm}
 
-{\fontfamily{phv}\fontsize{16}{0}\selectfont
 `r params$aluno`
-}
 
 \vspace{4cm}
 
@@ -98,11 +96,11 @@ Tese\hfill    apresentada\hfill    ao\hfill   Programa\hfill    de \\
 Pós-Graduação\hfill   em\hfill   Ciências\hfill   Ambientais\hfill  da\\
 Universidade Federal de São Carlos, como parte\\
 dos \hfill requisitos\hfill para\hfill  a\hfill obtenção\hfill  do\hfill título\hfill  de\\
-Mestre em Ciências Ambientais\footnotemark.\end{tabular}\footnotetext[1]{Aqui incluir o financiador, FAPESP processo XXXXX por exemplo}
+Doutor em Ciências Ambientais\footnotemark.\end{tabular}\footnotetext[1]{Aqui incluir o financiador, FAPESP processo XXXXX por exemplo}
 
 \end{flushright}
 
-\vspace{0.5cm}
+\vspace{2cm}
 
 \begin{flushright}
 
@@ -115,12 +113,12 @@ Coorientador: `r params$coorientador`
 \end{tabular}
 \end{flushright}
 
-\vspace{2cm}
 
+\vspace{2cm}
 
 \begin{centering}
 
-
+\vspace*{\fill}
 
 São Carlos - SP\\
 202X

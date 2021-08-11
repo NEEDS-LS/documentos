@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.8.7)  11 AUG 2021 20:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.8.7)  11 AUG 2021 20:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**principal_dissertacao_PPGCAm.tex
-(./principal_dissertacao_PPGCAm.tex
+**principal_tese_PPGCAm.tex
+(./principal_tese_PPGCAm.tex
 LaTeX2e <2021-06-01> patch level 1
 L3 programming layer <2021-07-12> (c:/Users/acmar/AppData/Roaming/TinyTeX/texmf
 -dist/tex/latex/base/article.cls
@@ -458,8 +458,8 @@ d-pdftex.def
 File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count283
 \l__pdf_internal_box=\box56
-) (./principal_dissertacao_PPGCAm.aux)
-\openout1 = `principal_dissertacao_PPGCAm.aux'.
+) (./principal_tese_PPGCAm.aux)
+\openout1 = `principal_tese_PPGCAm.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
 LaTeX Font Info:    ... okay on input line 77.
@@ -517,9 +517,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 77.
 LaTeX Info: Redefining \pageref on input line 77.
 LaTeX Info: Redefining \nameref on input line 77.
-(./principal_dissertacao_PPGCAm.out) (./principal_dissertacao_PPGCAm.out)
+(./principal_tese_PPGCAm.out) (./principal_tese_PPGCAm.out)
 \@outlinefile=\write3
-\openout3 = `principal_dissertacao_PPGCAm.out'.
+\openout3 = `principal_tese_PPGCAm.out'.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -567,112 +567,111 @@ File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 {c:/Users/acmar/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdfte
 x.map}]
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-42.
+40.
 (c:/Users/acmar/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-42.
+40.
 (c:/Users/acmar/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-142.
+140.
 (c:/Users/acmar/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-142.
+140.
 (c:/Users/acmar/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 142.
+(Font)              <12> on input line 140.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 142.
+(Font)              <8> on input line 140.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 142.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 142
+(Font)              <6> on input line 140.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 140
 .
 (c:/Users/acmar/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 142
+LaTeX Font Info:    Trying to load font information for U+msb on input line 140
 .
 (c:/Users/acmar/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 147.
+(Font)              <10> on input line 145.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 147.
+(Font)              <7> on input line 145.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 147.
+(Font)              <5> on input line 145.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.175 \newpage
+l.173 \newpage
                [2]pdfTeX warning (ext4): destination with the same identifier (
 name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.179 \newpage
+l.177 \newpage
                [3]pdfTeX warning (ext4): destination with the same identifier (
 name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.185 \newpage
+l.183 \newpage
                [4]pdfTeX warning (ext4): destination with the same identifier (
 name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.198 \newpage
+l.196 \newpage
                [5]pdfTeX warning (ext4): destination with the same identifier (
 name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.213 \newpage
+l.211 \newpage
                [6]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
-34.
+32.
 (c:/Users/acmar/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )pdfTeX warning (ext4): destination with the same identifier (name{page.}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.264 \newpage
+l.262 \newpage
                [7]pdfTeX warning (ext4): destination with the same identifier (
 name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.282 \newpage
-               [8] (./principal_dissertacao_PPGCAm.toc)
+l.280 \newpage
+               [8] (./principal_tese_PPGCAm.toc)
 \tf@toc=\write4
-\openout4 = `principal_dissertacao_PPGCAm.toc'.
+\openout4 = `principal_tese_PPGCAm.toc'.
 
 [1] [1] [2] [3] [4] [5] [6] 
 AED: lastpage setting LastPage
-[7] (./principal_dissertacao_PPGCAm.aux)
-Package rerunfilecheck Info: File `principal_dissertacao_PPGCAm.out' has not ch
-anged.
+[7] (./principal_tese_PPGCAm.aux)
+Package rerunfilecheck Info: File `principal_tese_PPGCAm.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  )
 (\end occurred inside a group at level 3)
 
-### semi simple group (level 3) entered at line 273 (\begingroup)
-### semi simple group (level 2) entered at line 224 (\begingroup)
+### semi simple group (level 3) entered at line 271 (\begingroup)
+### semi simple group (level 2) entered at line 222 (\begingroup)
 ### semi simple group (level 1) entered at line 64 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
  11150 strings out of 480502
- 164502 string characters out of 5898082
- 473952 words of memory out of 5000000
+ 164355 string characters out of 5898082
+ 473910 words of memory out of 5000000
  28597 multiletter control sequences out of 15000+600000
  468367 words of font info for 78 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,11n,66p,262b,1916s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,11n,66p,255b,1916s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced bu
 t does not exist, replaced by a fixed one
 
@@ -688,7 +687,7 @@ pe1/public/lm/lmr7.pfb><c:/Users/acmar/AppData/Roaming/TinyTeX/texmf-dist/fonts
 /type1/public/lm/lmr8.pfb><c:/Users/acmar/AppData/Roaming/TinyTeX/texmf-dist/fo
 nts/type1/urw/helvetic/uhvb8a.pfb><c:/Users/acmar/AppData/Roaming/TinyTeX/texmf
 -dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on principal_dissertacao_PPGCAm.pdf (16 pages, 177475 bytes).
+Output written on principal_tese_PPGCAm.pdf (16 pages, 177467 bytes).
 PDF statistics:
  120 PDF objects out of 1000 (max. 8388607)
  84 compressed objects within 1 object stream
